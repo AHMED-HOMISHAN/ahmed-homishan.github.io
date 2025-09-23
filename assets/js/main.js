@@ -93,3 +93,6 @@ const sr = ScrollReveal({
 sr.reveal(`.home__data`)
 sr.reveal(`.home__handle`, {delay: 700})
 sr.reveal(`.home__social, .home__scroll`,{delay: 900, origin: 'bottom'})
+sr.reveal(`.about__data, .skills__content, .projects__category`, {interval: 100})
+sr.reveal(`.experience__item`, {interval: 200, origin: 'left'})
+sr.reveal(`.projects__card`, {interval: 100, delay: 200})
